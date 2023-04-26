@@ -1,0 +1,28 @@
+{
+  "name": "Abdu",
+  "version": "1.0.0",
+  "description": "Abdu",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./microservices/common_services/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Abdu"
+  },
+  "author": "Abdu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.37",
+    "mongodb-memory-server": "^8.12.2",
+    "node-xlsx": "^0.15.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3"
+  }
+}

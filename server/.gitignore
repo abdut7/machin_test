@@ -1,0 +1,15 @@
+/node_modules
+# Rider
+/.idea
+# Visual Studio Code
+/.vscode
+#for running production build 
+#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
+/secret
+/upload
+package-lock.json
+/build
+
+node_modules 
+.env* 
+*.local
