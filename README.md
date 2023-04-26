@@ -3,6 +3,11 @@
 Nodejs,Express and In memmory mongodb
 ### Running 
 
+
+```sh
+cd server
+ ```
+
 ```sh
 npm i
  ```
@@ -20,7 +25,12 @@ npm start
   
  Methode : GET Answers
   ```sh
-    127.0.0.1:3000/get_feedback
+    127.0.0.1:3001/get_feedback
+  ```
+
+ Methode : POST feedback
+  ```sh
+    127.0.0.1:3001/feedback
   ```
 
 
@@ -29,6 +39,9 @@ npm start
   Reactjs
 
 ### Running 
+```sh
+cd app
+ ```
 
 ```sh
 npm i
